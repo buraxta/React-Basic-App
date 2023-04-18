@@ -2,11 +2,12 @@
 //<h1> for a title and a <p> for the content.
 import React from "react";
 
-export default function Note() {
+
+export default function Note(params) {
   return (
     <div className="note">
-      <h1>This is the note title</h1>
-      <p>This is the note content</p>
+      <h1>{params.title}</h1>
+      <p>{params.content}</p>
     </div>
   );
 }
