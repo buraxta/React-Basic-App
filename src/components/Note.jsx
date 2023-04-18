@@ -2,7 +2,7 @@
 //<h1> for a title and a <p> for the content.
 import React from "react";
 
-function Note() {
+export default function Note() {
   return (
     <div className="note">
       <h1>This is the note title</h1>
@@ -10,6 +10,4 @@ function Note() {
     </div>
   );
 }
-
-export default Note;
 

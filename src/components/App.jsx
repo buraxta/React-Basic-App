@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import Footer from "./Footer";
 import Note from "./Note";
 
-function App() {
+export default function App() {
     return(
         <>
         <Heading />
@@ -12,5 +12,3 @@ function App() {
         </>
     );
 }
-
-export default App;
